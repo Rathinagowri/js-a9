@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>TABLE</title>
+
+</head>
+<body>
+
+<center>
+<table   bgcolor="000000" width="20%">
+<TR>
+<TD>
+<BR>
+<BR>
+</TD>
+</TR>
+</TABLE>
+<table border="1" bgcolor="C0C0C0" width="20%">
+<tr id=r1>
+<th>
+row1
+</th>
+</tr>
+<tr id=r2>
+<th>row2
+</th>
+</tr>
+<tr id=r3>
+<th>
+row3
+</th>
+</tr>
+<tr id=r4>
+<th>row4
+</th>
+</tr>
+<tr id=r5>
+<th>row5
+</th>
+</tr>
+</table>
+<br>
+<form name = "myform">
+<input type = "button" name = "button1" id = "button1" value = "hide odd rows" style="background-color:blue;"onclick = "change()">
+</form>
+
+
+</center>
+</TD>
+</TR>
+</table>
+</center>
+<script type = "text/javascript">
+
+function change() {
+document.getElementById("r1").style.display = 'none';
+   document.getElementById("r2").style.display = '';
+   document.getElementById("r3").style.display = 'none';
+document.getElementById("r4").style.display = '';
+   document.getElementById("r5").style.display = 'none';
+}
+</script>
+
+</body>
+</html>
